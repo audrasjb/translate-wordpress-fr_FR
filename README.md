@@ -13,6 +13,30 @@ Ce guide peut être téléchargé sous forme de présentation :
 
 Le format diaporama a été initialement réalisé sur Google Drive. Voici un [lien d'accès](https://docs.google.com/presentation/d/1P9nZ4ExmO06D7uN-cy8wcIl-axa_q6y74BjgZah-nBM/edit?usp=sharing) en consultation seule. Si vous souhaitez contribuer à ce document, contactez @audrasjb sur le slack WordPress Francophone 😙
 
+## Table des matières
+
+- [L’internationalisation de WordPress et de son écosystème](#linternationalisation-de-wordpress-et-de-son-écosystème)
+- [Le WordPress Translation Day](#le-wordpress-translation-day)
+- [Structuration de la communauté](#structuration-de-la-communauté)
+  - [General Translation Editor (GTE)](#general-translation-editor-gte)
+  - [Project Translation Editor (PTE)](#project-translation-editor-pte)
+  - [Personne disposant d’un compte wordpress.org](#personne-disposant-dun-compte-wordpressorg)
+- [La diffusion des traductions réalisées : le système Translate](#la-diffusion-des-traductions-réalisées--le-système-translate)
+- [Gestion des traductions sur votre serveur](#gestion-des-traductions-sur-votre-serveur)
+- [Fonctionnement de la traduction : les chaînes de traduction](#fonctionnement-de-la-traduction--les-chaînes-de-traduction)
+- [Comment devenir traducteur](#comment-devenir-traducteur)
+- [Comment traduire](#comment-traduire)
+  - [La page de traduction d’un projet](#la-page-de-traduction-dun-projet)
+  - [Les statuts des chaînes de traduction](#les-statuts-des-chaînes-de-traduction)
+  - [Traduire une chaîne avec Translate](#traduire-une-chaîne-avec-translate)
+  - [À partir du moment où une chaîne proposée a été validée…](#À-partir-du-moment-où-une-chaîne-proposée-a-été-validée)
+  - [Que faire pour demander la validation de vos traductions ?](#que-faire-pour-demander-la-validation-de-vos-traductions-)
+- [Recommandations générales](#recommandations-générales)
+  - [Suivre les règles typographiques françaises](#suivre-les-règles-typographiques-françaises)
+- [Devenir Project Translation Editor (PTE)](#devenir-project-translation-editor-pte)
+- [Quelques liens pour aller plus loin](#quelques-liens-pour-aller-plus-loin)
+- [À propos / Crédits](#À-propos)
+
 ## L’internationalisation de WordPress et de son écosystème
 
 WordPress est traduit dans plus de 150 langues par des bénévoles de la communauté mondiale, regroupés en équipe de polyglottes. 
@@ -207,7 +231,8 @@ Il suffit d’en faire la demande sur le Slack, channel #traductions.
 
 Ce guide à été réalisé dans le cadre du WP Translation Day 2017.
 
-Crédits : Jb Audras | @audrasjb
-Avec les contributions de FX Bénard, Thomas Piron & Pascal Casier
+Crédits : 
+- [Jb Audras](https://jeanbaptisteaudras.com) | [@audrasjb](https://twitter.com/audrasjb)
+- Avec les contributions de [FX Bénard](https://twitter.com/fxbenard), [Thomas Piron](https://twitter.com/crash_47) & [Pascal Casier](https://twitter.com/ePascalC)
 
 Creative Commons [BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)
