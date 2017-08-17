@@ -1,6 +1,10 @@
 # Traduire WordPress, ses thèmes & extensions
 
-Ce guide a pour objectif d’aider les personnes souhaitant participer à la traduction de WordPress et de son écosystème à comprendre comment fonctionne le système **translate.wordpresss.org**.
+![Logo WordPress Translation Day 2017](/images/translate_wptd2017.png)
+
+Ce guide a été réalisé dans le cadre de la préparation du WordPress Translation Day 2017, au départ pour le meetup local WP Drôme-Ardèche, puis proposé à tous les organisateurs de meetups locaux francophones.
+
+Il a pour objectif d’aider les personnes souhaitant participer à la traduction de WordPress et de son écosystème à comprendre comment fonctionne le système **translate.wordpresss.org**.
 
 ## L’internationalisation de WordPress et de son écosystème
 
