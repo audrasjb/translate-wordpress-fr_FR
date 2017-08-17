@@ -6,6 +6,13 @@ Ce guide a été réalisé dans le cadre de la préparation du WordPress Transla
 
 Il a pour objectif d’aider les personnes souhaitant participer à la traduction de WordPress et de son écosystème à comprendre comment fonctionne le système **translate.wordpresss.org**.
 
+Ce guide peut être téléchargé sous forme de présentation : 
+- [Présentation au format PPTX (Microsoft Office)](/slides/translate_slidesPPT.pptx)
+- [Présentation au format ODP (LibreOffice)](/slides/translate_slidesODP.odp)
+- [Présentation au format PDF](/slides/translate_slidesPDF.pdf)
+
+Le format diaporama a été initialement réalisé sur Google Drive. Voici un [lien d'accès](https://docs.google.com/presentation/d/1P9nZ4ExmO06D7uN-cy8wcIl-axa_q6y74BjgZah-nBM/edit?usp=sharing) en consultation seule. Si vous souhaitez contribuer à ce document, contactez @audrasjb sur le slack WordPress Francophone 😙
+
 ## L’internationalisation de WordPress et de son écosystème
 
 WordPress est traduit dans plus de 150 langues par des bénévoles de la communauté mondiale, regroupés en équipe de polyglottes. 
@@ -28,6 +35,9 @@ En 2017, la troisième édition :
 - Un hashtag : **#WPTranslationDay**
 
 Site officiel → https://wptranslationday.org 
+
+Les meetups locaux francophones :
+- WP Drôme-Ardèche : https://www.meetup.com/fr-FR/Valence-WordPress-Meetup/events/242277421/
 
 ## Structuration de la communauté
 
@@ -61,6 +71,8 @@ Dans ce répertoire, on trouve les traductions du cœur de WordPress.
 
 Les traductions des thèmes et extensions sont situées dans les sous-dossiers */themes* et */plugins*
 
+![Exemple d’organisation de votre serveur](/images/translate_server.png)
+
 ## Fonctionnement de la traduction : les chaînes de traduction
 
 Une chaîne de traduction est une expression, un mot, une phrase, découpée et isolée et utilisant la syntaxe standard et internationale fournie par PHP : **gettext**
@@ -81,15 +93,19 @@ Exemple :
 French (France)
 Français – fr_FR
 
+![Choisir une localisation](/images/translate_locale.png)
+
 ## Comment traduire
 
-Trouver un projet que vous connaissez/utilisez.
+Trouver un projet que vous connaissez ou que vous utilisez.
 
-Par exemple ici je clique sur Plugins dans le menu, puis j’utilise le moteur de recherche pour trouver Yoast SEO :
+Par exemple ici je clique sur Plugins dans le menu, puis j’utilise le moteur de recherche pour trouver *Yoast SEO* :
+
+![Choisir un projet](/images/translate_projects.png)
 
 ### La page de traduction d’un projet
 
-(image)
+![Page de traduction d’un projet](/images/translate_projectindex.png)
 
 ### Les statuts des chaînes de traduction
 
@@ -102,34 +118,38 @@ Par exemple ici je clique sur Plugins dans le menu, puis j’utilise le moteur d
 
 Ci-dessous, la chaîne « Remind me again in 4 weeks » n’est pas traduite. Je double-clique dans la cellule correspondante de la colonne « Translation » (ou sur « Details »).
 
-(image)
+![](/images/translate_stringlist.png)
 
 Traduire la chaîne, puis cliquer sur « Suggest new translation » :
 
-(image)
+![](/images/translate_stringtranslation.png)
 
 La chaîne apparaît maintenant en **orange**, elle est en attente de validation :
 
-(image)
+![](/images/translate_stringwaiting.png)
 
 On peut encore la modifier en cliquant sur « Details » :
 
-(image)
+![](/images/translate_stringstatus.png)
 
 ### À partir du moment où une chaîne proposée a été validée…
 
 Une fois une chaîne validée par un PTE ou un GTE : 
 - Celle-ci apparaîtra avec le statut `translated` dans le pack de langues du projet (en vert)
 - Elle sera déployée sur toutes les installations utilisant ce projet (thème ou extension)
-- Vous serez reconnu comme un contributeur officiel du projet WordPress ! 
+- Vous serez reconnu comme un contributeur officiel du projet WordPress ! 💪
 
 (ง'̀-'́)ง
+
+![](/images/translate_profilebadge.png)
 
 ### Que faire pour demander la validation de vos traductions ?
 
 Plutôt que d’attendre qu’un GTE ou PTE passe par là, le plus simple est de demander la validation de vos chaînes directement : 
 - S’inscrire sur le Slack WordPress-fr → https://wpfr.net/slack/ 
 - Aller dans le channel #traductions et poster un lien vers le projet que vous avez traduit
+
+![](/images/translate_slackrequest.png)
 
 Vous pouvez en profiter pour y poser vos questions éventuelles : la communauté est là pour vous répondre 😊
 
