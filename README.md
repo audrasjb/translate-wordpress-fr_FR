@@ -7,9 +7,9 @@ Ce guide a été réalisé dans le cadre de la préparation du WordPress Transla
 Il a pour objectif d’aider les personnes souhaitant participer à la traduction de WordPress et de son écosystème à comprendre comment fonctionne le système **translate.wordpresss.org**.
 
 Ce guide peut être téléchargé sous forme de présentation : 
-- [Présentation au format PPTX (Microsoft Office)](/slides/translate_slidesPPT.pptx)
-- [Présentation au format ODP (LibreOffice)](/slides/translate_slidesODP.odp)
-- [Présentation au format PDF](/slides/translate_slidesPDF.pdf)
+- [Présentation au format PPTX (Microsoft Office)](/slides/translate_slidesPPT.pptx?raw=true)
+- [Présentation au format ODP (LibreOffice)](/slides/translate_slidesODP.odp?raw=true)
+- [Présentation au format PDF](/slides/translate_slidesPDF.pdf?raw=true)
 
 Le format diaporama a été initialement réalisé sur Google Drive. Voici un [lien d'accès](https://docs.google.com/presentation/d/1P9nZ4ExmO06D7uN-cy8wcIl-axa_q6y74BjgZah-nBM/edit?usp=sharing) en consultation seule. Si vous souhaitez contribuer à ce document, contactez @audrasjb sur le slack WordPress Francophone 😙
 
