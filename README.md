@@ -16,7 +16,7 @@ Chacun peut contribuer à son développement en participant à la traduction fra
 - de ses thèmes
 - au niveau « meta » : documentation, wp.org, apps, etc.
 
-# Le WordPress Translation Day
+## Le WordPress Translation Day
 
 - Un évènement annuel mondial
 - Stats 2016 : **780 traducteurs** dans **133 langues** ont produit **60426 traductions** lors de **67 évènements** dans le monde !
@@ -29,31 +29,31 @@ En 2017, la troisième édition :
 
 Site officiel → https://wptranslationday.org 
 
-# Structuration de la communauté
+## Structuration de la communauté
 
-## General Translation Editor (GTE)
+### General Translation Editor (GTE)
 
 - Responsable de la traduction pour une localisation (exemple : *fr_FR*)
 - Réalise et valide les traductions proposées sur tous les projets d’une localisation
 - Valide les demandes de nouveaux PTE et guide la communauté
 
-## Project Translation Editor (PTE)
+### Project Translation Editor (PTE)
 
 - Responsable d’un projet (thème, extension) pour une localisation
 - Réalise et valide les traductions proposées sur le projet dont il est responsable pour une localisation
 
-## Personne disposant d’un compte wordpress.org
+### Personne disposant d’un compte wordpress.org
 
 - Peut proposer des traductions pour validation par un GTE ou par un PTE
 
-# La diffusion des traductions réalisées : le système *Translate*
+## La diffusion des traductions réalisées : le système *Translate*
 
 Une fois la traduction validée par un PTE ou par un GTE, et lorsque le projet (WordPress, thème, extension) est validé à 95% ou plus dans une localisation donnée, le système *Translate* : 
 
 - construit un **paquet de langue**
 - **notifie** les utilisateurs de WordPress via leur administration pour qu’ils puissent mettre à jour la traduction du projet depuis leur interface d’administration
 
-# Gestion des traductions sur votre serveur
+## Gestion des traductions sur votre serveur
 
 Les fichiers de traduction sont situées sur wp-content/languages
 
@@ -61,7 +61,7 @@ Dans ce répertoire, on trouve les traductions du cœur de WordPress.
 
 Les traductions des thèmes et extensions sont situées dans les sous-dossiers */themes* et */plugins*
 
-# Fonctionnement de la traduction : les chaînes de traduction
+## Fonctionnement de la traduction : les chaînes de traduction
 
 Une chaîne de traduction est une expression, un mot, une phrase, découpée et isolée et utilisant la syntaxe standard et internationale fournie par PHP : **gettext**
 
@@ -72,7 +72,7 @@ Exemple :
 - Le premier paramètre, ici « Hello word » est l’élément traduisible.
 - Le second paramètre, ici « textdomain » permet d’identifier le projet auquel la chaîne appartient.
 
-# Comment devenir traducteur
+## Comment devenir traducteur
 
 1. Connectez-vous à WordPress.org ou créez un compte.
 2. Visitez la page des projets en français sur translate.wordpress.org.
@@ -81,24 +81,24 @@ Exemple :
 French (France)
 Français – fr_FR
 
-# Comment traduire
+## Comment traduire
 
 Trouver un projet que vous connaissez/utilisez.
 
 Par exemple ici je clique sur Plugins dans le menu, puis j’utilise le moteur de recherche pour trouver Yoast SEO :
 
-## La page de traduction d’un projet
+### La page de traduction d’un projet
 
 (image)
 
-## Les statuts des chaînes de traduction
+### Les statuts des chaînes de traduction
 
 - **translated**/**approved** : traduction validée
 - **untranslated** : pas encore de traduction proposée
 - **waiting** : une traduction a été proposée mais n’a pas encore été validée
 - **fuzzy** : traduction enregistrée en brouillon, doit être validée manuellement
 
-## Traduire une chaîne avec Translate
+### Traduire une chaîne avec Translate
 
 Ci-dessous, la chaîne « Remind me again in 4 weeks » n’est pas traduite. Je double-clique dans la cellule correspondante de la colonne « Translation » (ou sur « Details »).
 
@@ -116,7 +116,7 @@ On peut encore la modifier en cliquant sur « Details » :
 
 (image)
 
-## À partir du moment où une chaîne proposée a été validée…
+### À partir du moment où une chaîne proposée a été validée…
 
 Une fois une chaîne validée par un PTE ou un GTE : 
 - Celle-ci apparaîtra avec le statut `translated` dans le pack de langues du projet (en vert)
@@ -125,7 +125,7 @@ Une fois une chaîne validée par un PTE ou un GTE :
 
 (ง'̀-'́)ง
 
-## Que faire pour demander la validation de vos traductions ?
+### Que faire pour demander la validation de vos traductions ?
 
 Plutôt que d’attendre qu’un GTE ou PTE passe par là, le plus simple est de demander la validation de vos chaînes directement : 
 - S’inscrire sur le Slack WordPress-fr → https://wpfr.net/slack/ 
@@ -133,7 +133,7 @@ Plutôt que d’attendre qu’un GTE ou PTE passe par là, le plus simple est de
 
 Vous pouvez en profiter pour y poser vos questions éventuelles : la communauté est là pour vous répondre 😊
 
-# Recommandations générales
+## Recommandations générales
 
 - Suivre le [glossaire du cœur de WordPress](https://translate.wordpress.org/projects/wp/dev/fr/default/glossary), il constitue la ligne directrice de la traduction de WordPress.
 - Privilégier un langage formel. Le « vous » plutôt que le « tu ».
@@ -143,7 +143,7 @@ Vous pouvez en profiter pour y poser vos questions éventuelles : la communauté
 - Ne pas traduire littéralement.
 - Ne pas traduire le nom des thèmes, extensions.
 
-## Suivre les règles typographiques françaises
+### Suivre les règles typographiques françaises
 
 Gestion de la ponctuation et des espaces insécables
 → saisir ALT+255 sur Windows et ALT+SPACE sur MacOS pour produire un espace insécable
@@ -151,13 +151,12 @@ Gestion de la ponctuation et des espaces insécables
 Utiliser les guillemets français `…`
 → saisir ALT+0171 et ALT+0187 sur Windows ou ALT+7 et ALT+SHIFT+7 sur MacOS
 
-
 Utiliser l’apostrophe courbe française `’` au lieu du guillemet droit `'`
 → saisir ALT+0146 sur Windows ou ALT+SHIFT+4 sur MacOS
 
 Règles typographiques de base : https://fr.wordpress.org/2016/04/22/regles-typographiques-de-base/ 
 
-# Devenir Project Translation Editor (PTE)
+## Devenir Project Translation Editor (PTE)
 
 - Vous êtes éditeur de thèmes ou d’extensions ?
 - Vous êtes un utilisateur assidu d’un thème ou d’une extension qui ne dispose pas de PTE en fr_FR ?
@@ -167,7 +166,7 @@ Dans ce cas, vous pouvez demander à devenir PTE d’un thème ou d’une extens
 
 Il suffit d’en faire la demande sur le Slack, channel #traductions.
 
-# Quelques liens pour aller plus loin
+## Quelques liens pour aller plus loin
 
 - Translate sur WordPress.org 
 → https://translate.wordpress.org
@@ -184,9 +183,9 @@ Il suffit d’en faire la demande sur le Slack, channel #traductions.
 - Comment devenir PTE pour un projet fr_FR (en anglais)
 → https://fr.wordpress.org/2015/12/18/how-french-community-handles-pte-requests/ 
 
-# À propos
+## À propos
 
-Réalisé dans le cadre du WP Translation Day 2017
+Ce guide à été réalisé dans le cadre du WP Translation Day 2017.
 
 Crédits : Jb Audras | @audrasjb
 Avec les contributions de FX Bénard, Thomas Piron & Pascal Casier
